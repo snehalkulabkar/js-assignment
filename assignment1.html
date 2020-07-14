@@ -1,0 +1,49 @@
+Assignment 1
+
+
+<!DOCTYPE html>   
+    <head> 
+    
+    </head>
+    <body>
+
+      <script>
+   
+
+    var array = new Array(7);
+    array[0]="Sunday";
+    array[1]="Monday";
+    array[2]="Tuesday";
+    array[3]="Wednesday";
+    array[4]="Thursday";
+    array[5]="Friday";
+    array[6]="Saturday";
+
+    
+    var d= new Date();
+    var n =d.getDay();
+    var h= d.getHours();
+    var m = d.getMinutes();
+    var s =d.getSeconds();
+    var a ="AM";
+
+    if(h>12)
+    {
+        h=h%12;
+        a="PM";
+    }
+
+    document.write("Today is:"+array[n]);
+    
+     
+    document.write("<br> Current time is:  " +h +a );
+    document.write( ":" + m);
+    document.write(":" + s);
+   
+      </script>
+    </body>
+</html>
+
+
+
+
