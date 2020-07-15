@@ -1,0 +1,65 @@
+*/Question 1 :
+Explore and explain the various methods in console function :
+
+1.console.log()
+Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
+
+2.console.error()
+Used to log error message to the console. Useful in testing of code. By default the error message will be highlighted with red color.
+
+3.console.warn()
+Used to log warning message to the console. By default the warning message will be highlighted with yellow color.
+
+4.console.clear()
+Used to clear the console. The console will be cleared, in case of Chrome a simple overlayed text will be printed like: 
+‘Console was cleared’ while in firefox no message is returned.
+filter_none
+
+5.console.time() and console.timeEnd()
+Whenever we want to know the amount of time spend by a block or a function,
+ we can make use of the time() and timeEnd() methods provided by the javascript console object. 
+ They take a label which must be same, and the code inside can be anything( function, object, simple console).
+
+6..table()
+This method allows us to generate a table inside a console. 
+The input must be an array or an object which will be shown as a table.
+
+7.console.group() and console.groupEnd()
+group() and groupEnd() methods of the console object allows us to group contents in a separate block.
+which will be indented. Just like the time() and the timeEnd() they also accepts label, again of same value.
+
+8.Custom Console Logs
+User can add Styling to the console logs in order to make logs Custom . 
+The Syntax for it is to add the css styling as a parameter to the logs which will replace %c in the logs as shown in the example below.
+
+Question 2 :
+Write the difference between var, let and const with code examples.
+
+Var :
+The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable.
+Example: var a =10;
+Variable declarations are processed before the execution of the code.
+The scope of a JavaScript variable declared with var is its current execution context.
+The scope of a JavaScript variable declared outside the function is global.
+
+let
+The let statement declares a local variable in a block scope. It is similar to var, in that we can optionally initialize the variable.
+Example: let a =10;
+The let statement allows you to create a variable with the scope limited to the block on which it is used
+
+const
+const statement values can be assigned once and they cannot be reassigned. 
+The scope of const statement works similar to let statements./*
+
+*/Question 3 :
+Write a brief intro on available data types in Javascript.
+
+Data Types in JavaScript
+Data types basically specify what kind of data can be stored and manipulated within a program.
+There are six basic data types in JavaScript which can be divided into three main categories: 
+primitive (or primary), composite (or reference), and special data types. String, Number, and Boolean are primitive data types. 
+Object, Array, and Function (which are all types of objects) are composite data types. 
+Whereas Undefined and Null are special data types.
+Primitive data types can hold only one value at a time, whereas composite data types can hold collections of values 
+and more complex entities.
+
