@@ -35,7 +35,7 @@ console.log((b>=75)?console.log("A+ grade"):
 
 let c = prompt("Enter your marks")
 
-switch(c)
+switch(true)
 {
 case (c>=75):
   console.log("A+ grade")
