@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>change the background of the page
+            after 5 seconds.</title>
+            <script>
+                var col = ["orange", "white", "green", "red", "blue"];
+
+                function changeColor() {
+                    setTimeout(function loop() {
+                        document.bgColor = col.shift();
+                        if (col.length) {
+                            setTimeout(loop, 5000);
+                        }
+                    }, 5000);
+                }
+                function start() {
+                    setInterval(changeColor(), 5000);
+                }
+            </script>
+
+<body onload="start()">
+</body>
+</head>
+</html> 
