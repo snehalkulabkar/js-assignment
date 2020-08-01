@@ -1,0 +1,37 @@
+body {
+    background-color: #f192dd;
+}
+
+h2 {
+    background-color: #209dad;
+    color:#ffffffe5;
+    padding:10px;
+    font-family: arial;
+    text-align: center;
+    box-shadow: 2px 2px #05363a;
+}
+ .card{
+    padding:20px 40px 20px 40px;   
+    max-width:450px;
+    max-height:600px;
+    text-align: center;
+    background-color: #f2e6ff;
+    border-top: #af4ba3 40px;
+    margin-top: 80px;
+    margin-left:500px ;
+}
+
+.btn{
+    height:50px;
+    width:150px;
+    font-size: 18px;
+    color: #ffffffe5;
+    background-color: #5666c0;
+    padding:5px;
+}
+
+p{
+    font-family:Arial;
+    font-size: 25px;
+}
+
